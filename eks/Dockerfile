@@ -25,3 +25,9 @@ RUN cd /etc/apache2/sites-available \
     && service apache2 reload || true
 
 EXPOSE 80
+
+#deploy on port 80
+#dir /var/www/html
+#dep apache 8.1.0
+#using shell script to update and upgrade all depedencies
+
